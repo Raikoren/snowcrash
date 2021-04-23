@@ -1,0 +1,14 @@
+En fouillant on se rend compte qu'on accés au fichié /etc/passwd
+
+cat /etc/passwb
+
+...
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+...
+
+la seule ligne avec un hash. Du coup on passe le fichié dans un password cracker
+genre john the ripper
+
+john --show passwd
+
+abcdefg (flag01)

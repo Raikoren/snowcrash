@@ -1,0 +1,7 @@
+l'executable ecrit la variable env LOGNAME
+
+du coup tu export LOGNAME et rajoute à la fin ";getflag"
+
+__________________
+
+*0x08048cef

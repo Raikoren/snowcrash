@@ -1,0 +1,13 @@
+regex donc flemme du coup on a direct reverse getflag
+
+ptrace protège getflag du reverse, du coup on contourne
+
+catch syscall ptrace
+set ($eax) = 0
+continue
+end
+
+on met un breakpoint sur n'importe quoi nous on met sur getuid
+et maintenant on li dans le disas main sur que adress on veut jump.
+
+ici c'est *0x08048ccb

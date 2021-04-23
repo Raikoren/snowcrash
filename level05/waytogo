@@ -1,0 +1,2 @@
+en fouillant les crontask flag05 execute les scripts dans le dossier openareserver
+du coup on met un script dedans qui exec getflag et met le resultat dans un fichier dans /tmp/

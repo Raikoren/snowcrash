@@ -1,0 +1,8 @@
+l'exec veut un token mais on a pas le droit d'utiliser le token
+du coup on passe par un lien symbolique
+
+ln -s [path du token]  [path d'un truc dans tmp]
+
+___________________
+
+*0x08048d13

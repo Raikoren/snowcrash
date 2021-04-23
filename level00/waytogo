@@ -1,0 +1,12 @@
+on arrive en tant que level00 et on veut accéder à l'user flag00 du coup on fouille:
+
+find / -user flag00
+
+on a plein de sorti et plein d'interdictions mais y'a deux fichiés autorisé.
+
+/usr/sbin/john
+/rofs/usr/sbin/john
+
+on cat un des fichié (c'est la même chose) et on passe le résultat sur un site de décalage chiffre césar
+
+ça donne: nottoohardhere
